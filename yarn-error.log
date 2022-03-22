@@ -1,0 +1,41 @@
+Arguments: 
+  /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/share/yarn/bin/yarn.js add instagram-private-api axios inquirer
+
+PATH: 
+  /data/data/com.termux/files/usr/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  17.6.0
+
+Platform: 
+  android arm64
+
+Trace: 
+  Error: EPERM: operation not permitted, symlink '../../../sshpk/bin/sshpk-conv' -> '/storage/emulated/0/rewrite-bot-igeh-master/node_modules/http-signature/node_modules/.bin/sshpk-conv'
+
+npm manifest: 
+  {
+    "name": "bot-igeh",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "axios": "^0.25.0",
+      "inquirer": "^8.2.0",
+      "instagram-private-api": "^1.45.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
